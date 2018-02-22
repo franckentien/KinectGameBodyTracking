@@ -1,0 +1,21 @@
+﻿<Application x:Class="BodyTracking.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="StateStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Brown" />
+            <Setter Property="FontSize" Value="50" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+        <Style x:Key="ScorePlayers" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="50" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+        <Style x:Key="HitStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="50" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+    </Application.Resources>
+</Application>
